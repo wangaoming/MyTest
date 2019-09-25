@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentSapce">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="68dp"
+            android:textSize="30dp"
+            android:layout_height="match_parent"
+            android:text="欢迎来到" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="138dp"
+            android:layout_height="match_parent"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="的学生空间"
+            android:textSize="30dp" /></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="288dp"
+            android:layout_height="270dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <Button
+                android:id="@+id/p1"
+                android:layout_width="146dp"
+                android:layout_height="65dp"
+                android:text="课程管理"
+                android:textSize="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <Button
+                android:id="@+id/p2"
+                android:layout_width="146dp"
+                android:layout_height="65dp"
+                android:text="工具箱"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
